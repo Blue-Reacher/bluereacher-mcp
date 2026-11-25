@@ -1,6 +1,6 @@
 {
   "name": "bluereacher-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Model Context Protocol server for Blue Reacher. Lets AI agents send iMessage, check delivery status, read conversations, and check iMessage capability over a dedicated line.",
   "type": "module",
   "bin": {
@@ -27,7 +27,7 @@
     "bluereacher",
     "agent"
   ],
-  "author": "Sagency International LLC (Blue Reacher)",
+  "author": "Blue Reacher",
   "license": "MIT",
   "homepage": "https://docs.bluereacher.com",
   "repository": {
@@ -47,5 +47,6 @@
   "devDependencies": {
     "@types/node": "^22.20.4",
     "typescript": "^5.9.3"
-  }
+  },
+  "mcpName": "com.bluereacher/mcp"
 }

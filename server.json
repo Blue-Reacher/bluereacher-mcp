@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.bluereacher/mcp",
+  "title": "Blue Reacher",
+  "description": "Send iMessages and read replies over a dedicated Blue Reacher line from any MCP client.",
+  "repository": {
+    "url": "https://github.com/Blue-Reacher/bluereacher-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "bluereacher-mcp",
+      "version": "0.1.1",
+      "transport": { "type": "stdio" },
+      "environmentVariables": [
+        {
+          "name": "BLUEREACHER_API_KEY",
+          "description": "Your Blue Reacher API key (brk_live_ or brk_test_ for the free sandbox).",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
