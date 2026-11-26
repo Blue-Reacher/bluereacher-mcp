@@ -1,5 +1,7 @@
 # bluereacher-mcp
 
+[![Blue-Reacher/bluereacher-mcp MCP server](https://glama.ai/mcp/servers/Blue-Reacher/bluereacher-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Blue-Reacher/bluereacher-mcp)
+
 A [Model Context Protocol](https://modelcontextprotocol.io) server for [Blue Reacher](https://bluereacher.com). It lets an AI agent send iMessage, check delivery status, read conversations, and check iMessage capability over a dedicated line.
 
 - Built on the official `@modelcontextprotocol/sdk`, stdio transport
